@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "PfEbEaqM8YQXisTA0wUwvzFuluV3YaT62PzGS2vvCIM=",
+  "Source": "WebAPI",
+  "BasePath": "_content/WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
