@@ -1,5 +1,4 @@
-﻿using System.Buffers.Text;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Net.Http.Json;
 using Desktop.Models;
 
@@ -33,5 +32,13 @@ namespace Desktop.Services
             await _httpClient.DeleteAsync($"{Url}/delete/{id}");
         }
 
+        public async Task UpdateImageAsync(byte[] data,int id, string fileName, string contentType)
+        {
+            var content = new MultipartFormDataContent
+        {
+            { new ByteArrayContent(data), "file", fileName }
+        };
+            await _httpClient.PutAsync($"{Url}/update/{id}",content);
+        }
     }
 }

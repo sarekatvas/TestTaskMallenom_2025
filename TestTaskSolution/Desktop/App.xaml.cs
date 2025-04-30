@@ -30,7 +30,7 @@ namespace Desktop
             // HTTP-клиент и сервисы
             services.AddHttpClient<ApiService>(client =>
             {
-                client.BaseAddress = new Uri("https://ваш-api-адрес.com/");
+                client.BaseAddress = new Uri("https://localhost:5001/api/images/");
             });
 
             // ViewModels и окна

@@ -75,7 +75,6 @@ namespace WebAPI.Controllers
             return NoContent();
         }
 
-
         // Удалить изображение по ID 
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id) {

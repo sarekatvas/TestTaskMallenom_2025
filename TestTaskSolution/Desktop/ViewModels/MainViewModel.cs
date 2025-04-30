@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using Desktop.Commands;
@@ -31,7 +32,7 @@ namespace Desktop.ViewModels
             _apiService = apiService;
 
             AddCommand = new RelayCommand(_ => AddImage());
-           // EditCommand = new RelayCommand(_ => EditImage(), _ => SelectedImage != null);
+            EditCommand = new RelayCommand(_ => EditImage(), _ => SelectedImage != null);
             DeleteCommand = new RelayCommand(_ => DeleteImage(), _ => SelectedImage != null);
 
             LoadImages();
@@ -58,7 +59,7 @@ namespace Desktop.ViewModels
         {
             var dialog = new OpenFileDialog();
             dialog.Title = "Добавить изображение";
-            dialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif";
+            dialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;";
            
 
             if (dialog.ShowDialog() == true)
@@ -92,6 +93,45 @@ namespace Desktop.ViewModels
                     MessageBox.Show($"Ошибка при удалении изображения: {ex.Message}");
                 }
             }
+        }
+
+        private async void EditImage()
+        {
+            var dialog = new OpenFileDialog();
+            dialog.Title = "Добавить изображение";
+            dialog.Filter = "Image Files|*.jpg;*.jpeg;*.png";
+
+
+            if (dialog.ShowDialog() == true)
+            {
+                try
+                {
+                    var filePath = dialog.FileName;
+                    var fileBytes = File.ReadAllBytes(filePath);
+                    var fileName = Path.GetFileName(filePath);
+
+                    // Определяем ContentType
+                    string contentType = filePath switch
+                    {
+                        var f when f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                                f.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) => "image/jpeg",
+                        var f when f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) => "image/png",
+                        _ => "application/octet-stream"
+                    };
+                    
+                     await _apiService.UpdateImageAsync(
+                            fileBytes,
+                            SelectedImage.Id,
+                            fileName,
+                            contentType
+                        );
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка при обновлении изображения: {ex.Message}");
+                } 
+            } 
+
         }
     }
 }

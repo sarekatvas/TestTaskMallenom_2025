@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EE9A4D4-29E3-4965-AA64-74143BCAB174}|WebAPI\\WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\webapi\\controllers\\imagescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE9A4D4-29E3-4965-AA64-74143BCAB174}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\imagescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\desktop\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9915FBFB-EC3E-4ABC-B701-EAD3DADD91AF}|Desktop\\Desktop.csproj|solutionrelative:desktop\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EE9A4D4-29E3-4965-AA64-74143BCAB174}|WebAPI\\WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EE9A4D4-29E3-4965-AA64-74143BCAB174}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C2C744-FBBF-429C-8049-E07CEB482C4A}|Core\\Core.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\testtaskmallenom_2025\\testtasksolution\\core\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C2C744-FBBF-429C-8049-E07CEB482C4A}|Core\\Core.csproj|solutionrelative:core\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,84 +58,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\App.xaml",
-              "RelativeDocumentMoniker": "Desktop\\App.xaml",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\App.xaml",
-              "RelativeToolTip": "Desktop\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T12:20:06.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "Desktop\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "Desktop\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ImagesControllers.cs",
+              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\WebAPI\\Controllers\\ImagesControllers.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ImagesControllers.cs",
+              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\WebAPI\\Controllers\\ImagesControllers.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ImagesControllers.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:55:57.655Z",
+              "WhenOpened": "2025-04-30T12:44:38.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Desktop\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\App.xaml.cs",
-              "RelativeToolTip": "Desktop\\App.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:47:26.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Desktop\\Commands\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Commands\\RelayCommand.cs",
-              "RelativeToolTip": "Desktop\\Commands\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:32:19.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "Desktop\\Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Services\\ApiService.cs",
               "RelativeToolTip": "Desktop\\Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T11:23:12.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Desktop\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "Desktop\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwDoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:20:54.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ImageModel.cs",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Models\\ImageModel.cs",
               "RelativeDocumentMoniker": "Desktop\\Models\\ImageModel.cs",
@@ -164,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Desktop\\Views\\MainWindow.xaml",
@@ -176,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Desktop\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Desktop\\Views\\MainWindow.xaml.cs",
@@ -189,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\WebAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebAPI\\Data\\AppDbContext.cs",
@@ -198,19 +144,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T13:03:29.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Core\\Models\\Image.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Image.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\TestTaskMallenom_2025\\TestTaskSolution\\Core\\Models\\Image.cs",
-              "RelativeToolTip": "Core\\Models\\Image.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:50:05.452Z",
               "EditorCaption": ""
             }
           ]
