@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/ImagesControllers/all": {
+    "/api/images/all": {
       "get": {
         "tags": [
           "ImagesControllers"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/api/ImagesControllers/{id}": {
+    "/api/images/{id}": {
       "get": {
         "tags": [
           "ImagesControllers"
@@ -40,7 +40,7 @@
         }
       }
     },
-    "/api/ImagesControllers/add": {
+    "/api/images/add": {
       "post": {
         "tags": [
           "ImagesControllers"
@@ -75,7 +75,7 @@
         }
       }
     },
-    "/api/ImagesControllers/update/{id}": {
+    "/api/images/update/{id}": {
       "put": {
         "tags": [
           "ImagesControllers"
@@ -121,7 +121,7 @@
         }
       }
     },
-    "/api/ImagesControllers/delete/{id}": {
+    "/api/images/delete/{id}": {
       "delete": {
         "tags": [
           "ImagesControllers"

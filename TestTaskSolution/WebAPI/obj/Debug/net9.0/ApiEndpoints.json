@@ -2,7 +2,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ImagesControllers",
     "Method": "GetById",
-    "RelativePath": "api/ImagesControllers/{id}",
+    "RelativePath": "api/images/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ImagesControllers",
     "Method": "Add",
-    "RelativePath": "api/ImagesControllers/add",
+    "RelativePath": "api/images/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -34,7 +34,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ImagesControllers",
     "Method": "GetAll",
-    "RelativePath": "api/ImagesControllers/all",
+    "RelativePath": "api/images/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ImagesControllers",
     "Method": "Delete",
-    "RelativePath": "api/ImagesControllers/delete/{id}",
+    "RelativePath": "api/images/delete/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -60,7 +60,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ImagesControllers",
     "Method": "Update",
-    "RelativePath": "api/ImagesControllers/update/{id}",
+    "RelativePath": "api/images/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
