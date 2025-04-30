@@ -12,9 +12,12 @@ namespace Desktop.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {
+        // Сервис для работы с api
         private readonly ApiService _apiService;
+        // Выбранное изображение 
         private ImageModel _selectedImage;
 
+        // Коллекция отображаемых изображений 
         public ObservableCollection<ImageModel> Images { get; } = new();
 
         public ImageModel SelectedImage
@@ -23,6 +26,7 @@ namespace Desktop.ViewModels
             set => SetField(ref _selectedImage, value);
         }
 
+        // Команды добавления, редактирования и удаления 
         public ICommand AddCommand { get; }
         public ICommand EditCommand { get; }
         public ICommand DeleteCommand { get; }
@@ -38,6 +42,7 @@ namespace Desktop.ViewModels
             LoadImages();
         }
 
+        // Асинхронный метод для загрузки всех изображений 
         private async void LoadImages()
         {
             try
@@ -55,6 +60,7 @@ namespace Desktop.ViewModels
             }
         }
 
+        // Метод для добавления нового изображения через диалог
         private async void AddImage()
         {
             var dialog = new OpenFileDialog();
@@ -77,6 +83,7 @@ namespace Desktop.ViewModels
             }
         }
 
+        // Метод для удаления выбранного изображения
         private async void DeleteImage()
         {
             if (MessageBox.Show("Вы уверены, что хотите удалить изображение?",
@@ -95,6 +102,7 @@ namespace Desktop.ViewModels
             }
         }
 
+        // Метод для редактирования
         private async void EditImage()
         {
             var dialog = new OpenFileDialog();
@@ -125,6 +133,7 @@ namespace Desktop.ViewModels
                             fileName,
                             contentType
                         );
+                    LoadImages();
                 }
                 catch (Exception ex)
                 {

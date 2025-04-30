@@ -5,27 +5,37 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-
-        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
-            <Button Content="Добавить" Command="{Binding AddCommand}" Margin="5" Width="100"/>
-            <Button Content="Изменить" Command="{Binding EditCommand}" Margin="5" Width="100"/>
-            <Button Content="Удалить" Command="{Binding DeleteCommand}" Margin="5" Width="100"/>
-        </StackPanel>
-
-        <ListView ItemsSource="{Binding Images}" SelectedItem="{Binding SelectedImage}" Grid.Row="0" Padding="10">
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
+            <Button Content="Добавить" Command="{Binding AddCommand}" Margin="5" Grid.Column="0"/>
+            <Button Content="Изменить" Command="{Binding EditCommand}" Margin="5" Grid.Column="1"/>
+            <Button Content="Удалить" Command="{Binding DeleteCommand}" Margin="5" Grid.Column="2"/>
+      
+         </Grid>
+        <ListView ItemsSource="{Binding Images}" 
+                  SelectedItem="{Binding SelectedImage}" 
+                  Grid.Row="0" 
+                  Padding="10">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Наименование" DisplayMemberBinding="{Binding FileName}" Width="auto" />
-                    <GridViewColumn Header="Изображение" Width="auto">
+                    <GridViewColumn Header="Наименование" 
+                                    DisplayMemberBinding="{Binding FileName}" 
+                                    Width="300" />
+                    <GridViewColumn Header="Изображение" Width="400">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Image 
-                            Source="{Binding Data}"
-                            Width="200" 
-                            Height="150"
-                            Stretch="UniformToFill"/>
+                                    Source="{Binding Data}"
+                                    Width="200" 
+                                    Height="150"
+                                    Stretch="UniformToFill"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
