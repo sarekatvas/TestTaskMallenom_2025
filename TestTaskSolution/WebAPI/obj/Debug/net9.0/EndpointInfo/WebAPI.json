@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/ImagesControllers": {
+    "/api/ImagesControllers/all": {
       "get": {
         "tags": [
           "ImagesControllers"
@@ -17,7 +17,30 @@
         }
       }
     },
-    "/api/ImagesControllers/Добавить": {
+    "/api/ImagesControllers/{id}": {
+      "get": {
+        "tags": [
+          "ImagesControllers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ImagesControllers/add": {
       "post": {
         "tags": [
           "ImagesControllers"
@@ -52,7 +75,53 @@
         }
       }
     },
-    "/api/ImagesControllers/Удалить": {
+    "/api/ImagesControllers/update/{id}": {
+      "put": {
+        "tags": [
+          "ImagesControllers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "File"
+                ],
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ImagesControllers/delete/{id}": {
       "delete": {
         "tags": [
           "ImagesControllers"
@@ -60,7 +129,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"

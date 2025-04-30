@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using WebAPI.Data;
 using WebAPI.Repositories;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Конфигурация PostgreSQL
+// Добавление контекста БД (PostgreSQL)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Default")), ServiceLifetime.Scoped);
 

@@ -6,11 +6,15 @@ using Core.Interfaces;
 
 namespace WebAPI.Repositories
 {
+    /// <summary>
+    /// Реализация репозитория для работы с изображениями в PostgreSQL.
+    /// </summary>
     public class ImageRepository:IImageRepository
     {
 
         private readonly AppDbContext _appDbContext;
-      
+
+        // Внедрение зависимости контекста БД
         public ImageRepository(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
@@ -37,6 +41,16 @@ namespace WebAPI.Repositories
             _appDbContext.Images.Remove(image);
             await _appDbContext.SaveChangesAsync();
             
+        }
+        public async Task<Image> GetByIdAsync(int id)
+        {
+            return await _appDbContext.Images.FindAsync(id);
+        }
+
+        public async Task UpdateAsync(Image image)
+        {
+            _appDbContext.Images.Update(image);
+            await _appDbContext.SaveChangesAsync();
         }
     }
 }
